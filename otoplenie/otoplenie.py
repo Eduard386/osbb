@@ -15,7 +15,6 @@ def one_meter_heating_cost(sum, cubes):
     one_meter_heating_cost = total_cost_of_heating / total_living_space
     return one_meter_heating_cost
 
-
 cost = one_meter_heating_cost(args["sum"], args["cubes"])
 
 print('One meter heating costs {} this month'.format(cost))
